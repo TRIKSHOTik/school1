@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, helvetica, sans-serif;
+    font-weight: 400;
+}
+
+header{
+    background-color: #00BFFF;
+}
+
+main{
+    background-color: #FFF44F;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 20px;
+    border-bottom: 4px solid  	#808080;
+    #plus{
+        padding-right: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        &:hover{
+            color: #FF0000;
+            transition: 0.3s;
+        }
+    }
+}
+
+.left-block{
+    img{
+        width: 700px;
+        height: 500px;
+    }
+}
+
+.right-block{
+    width: 50%;
+    p{
+        padding-bottom: 20px;
+    }
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.mid{
+    padding-left: 20px;
+    ul{
+        padding-left: 30px;
+    }
+    li{
+        font-weight: bold;
+    }
+    p{
+        padding: 10px 0;
+        color: #FF0000;
+        font-size: 20px;
+    }
+}
+
+.programmer{
+    padding: 40px 0 30px 20px;
+    a{
+        text-decoration: none;
+        color:  	#FF8000;
+        border: solid  	#FF8000 2px;
+        padding: 13px 9px;
+        border-radius: 32px;
+        font-size: 18px;
+        &:hover{
+            color: red;
+            transition: 0.3s;
+            border: solid red 2px;
+        }
+    }
+}
+
+.programmer{
+    padding: 30px 0 30px 10px;
+}
+
+.first-u, .second-u, .third-u{
+    display: flex;
+    .right-descr{
+        padding-left: 100px;
+    }
+    p{
+        padding: 20px 0;
+    }
+    .photo{
+        img{
+            width: 600px;
+            height: 400px;
+        }
+    }
+}
+
+.second-u, .third-u{
+    padding-top: 20px;
+}
+
+.plus{
+    padding: 20px 0 0 20px;
+    font-size: 18px;
+    padding-bottom: 600px;
+}
+
+.pluses{
+    padding-bottom: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    .card{
+        img{
+            width: 286px;
+            height: 286px;
+        }
+    }
+}
+
+.main-figures{
+    text-align: center;
+}
+
+.text-facts{
+    padding: 50px 10px 0;
+    padding-bottom: 40px;
+}
+
+#facts-h1{
+    font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: normal;
+}
